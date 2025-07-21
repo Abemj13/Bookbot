@@ -22,8 +22,6 @@ def dict_to_sorted_list(unsorted_dict: dict[str,int]) -> list[dict[str, str | in
              if k.isalpha()
              ]
 
-    
-
 def count_unique_words(text: str, number_most_commen_words: int = None) -> dict[str, int]:
 
     word_dict : dict[str, int] = defaultdict(int)
